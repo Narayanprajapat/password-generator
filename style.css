@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e52165;
+  height: 100vh;
+}
+
+.password-generator {
+  padding: 40px;
+  background-color: #0d1137;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius :25px;
+}
+
+.password-generator div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+
+.password {
+  min-width: 280px;
+  background-color: #e52165;
+  color: rgb(199, 199, 199);
+  border-radius: 25px;
+}
+
+.password p {
+  padding: 6px 10px;
+  
+}
+
+.password i {
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 6px 10px;
+}
+
+.password-generator button {
+  width: 100%;
+  border: none;
+  color: rgba(255, 255, 255, 0.699);
+  background-color: #e52165;
+  padding: 10px;
+  border-radius: 25px;
+}
