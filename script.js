@@ -30,6 +30,10 @@ function createPassword() {
 	}
 	const passwordBox = document.getElementById('passwordBox');
 	const length = document.getElementById('length');
+	if (length.value == 0) {
+		alert('Please Select Password Length');
+		return;
+	}
 	let password = '';
 	while (length.value > password.length) {
 		let keyToAdd = getKey[Math.floor(Math.random() * getKey.length)];
